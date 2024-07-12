@@ -46,7 +46,10 @@ const UseMemo = () => {
       <h2>UseMemo Component</h2>
       <button onClick={incrementNumber}>Increment Number</button>
       <p>Number: {number}</p>
-      <p>Expensive Calculation: {expensiveCalculation}</p>
+      <h2>Expensive Calculation</h2>
+      <p>{expensiveCalculation}</p>
+      <hr/>
+      <hr/>
     </div>
   );
 }
